@@ -1,0 +1,293 @@
+/* 
+body > .content > .sharelink ~ .sitetable:before {
+    content: "<a href='map.hyperboria.net'> live network map </a>  ";
+    background-color: #F2F2F2;
+    background-image: url(%%note%%);
+    background-repeat: no-repeat;
+    font-family: verdana, sans-serif;
+    font-size: 14px;
+    color: #555555;
+    text-align: left;
+    padding: 10px 0px 15px 55px;
+    margin: 15px;
+    margin: 15px;
+    display: block;
+    width: 70%;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px
+    } */
+#header {
+    border-bottom: 1px solid #BBBBBB;
+    position: relative;
+    background-color: #FFFFFF;
+    z-index: 99
+    }
+.side .titlebox .redditname a {
+    background: url(%%hype%%);
+    display: block;
+    width: 180px;
+    height: 56px;
+    float: none;
+    font-size: 0
+    }
+#header-bottom-left {
+    padding: 0px 0 0;
+    background-image: url(%%bkgr%%);
+    font-size: xx-small;
+    box-shadow: 0px -0px 6px #555
+    }
+#header-bottom-right {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: #DDD;
+    /*green is 8ea957*/
+    color: #FFFFFF;
+    padding: 4px;
+    -moz-border-radius-topleft: 7px;
+    -webkit-border-top-left-radius: 7px
+    }
+.pagename a {
+    display: block;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    font-size: 0px;
+    color: #364657;
+    left: 0px;
+    position: absolute;
+      }
+#search input[type="text"] {
+    border: none !important;
+    outline: none;
+    font-size: 14px;
+    padding: 5px;
+    width: 295px;
+    color: #BBB;
+    border-style: hidden;
+    border-width: 0px;
+    background-image: url(%%search%%);
+    text-align: center
+    }
+.gray {
+    color: #CCC
+    }
+/* Tabs styling and hover effect */
+.tabmenu li.selected a {
+    border-color: #555555 #555555 transparent !important;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #CEE3F8 !important
+    }
+.tabmenu li a {
+    background-color: #FFF7EF !important;
+    color: #666678 !important;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px
+    }
+.tabmenu li a:hover {
+    background-color: #CEE3F8 !important;
+    color: #222222 !important
+    }
+/* Subheading pulled from an <h6> element in the sidebar, placed under the nav tabs */
+.titlebox .usertext-body .md h6 {
+    display: block;
+    position: absolute;
+    top: 94px;
+    left: 20px;
+    margin-top: .5em;
+    z-index: 98;
+    padding-top: .4em;
+    padding-bottom: .3em;
+    padding-left: .7em;
+    padding-right: .7em;
+    font-size: 1.3em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px #000 !important;
+    color: #ede329;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #555 #444 #444 #444;
+    border-radius: 3px;
+    /* Override top border settings for new display position */
+    border-top-style: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: #666
+    }
+/* Allow absolute positioning to page */
+.titlebox form {
+    position: static
+    }
+/* Inactive link */
+.titlebox .usertext-body .md h6 a, .titlebox .usertext-body .md h6 a:link, .titlebox .usertext-body .md h6 a:visited {
+    color: #CCC;
+    text-shadow: 1px 1px 2px #000 !important
+    }
+/* Link on hover */
+.titlebox .usertext-body .md h6 a:hover {
+    color: #DDD;
+    text-shadow: 1px 1px 2px #000 !important
+    }
+/* Preface for the subheading box */
+.titlebox .usertext-body .md h6 a:before {
+    content: "NOTE";
+    /* OLD YELLOW */
+    /* color: #ede329;*/
+    /* RED */
+    /* color: #FF0000; */
+    /* ORANGERED */
+    /* color: #ff4500; */
+    /* GOLD */
+    color: #e4cd02;
+    border-right: 1px solid #444;
+    padding-right: .6em;
+    margin-right: .6em
+    }
+/* Move content out of the way */
+div.sitetable.linklisting {
+    margin-top: 15px;
+    background-color: #FEFEFE;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    margin-left: 15px;
+    padding-top: 12px;
+    padding-left: 11px;
+    padding-right: 11px
+    }
+div.linklisting div.link {
+    margin-left: -6px
+    }
+body > div.content {
+    margin-top: 38px;
+    margin-right: 330px;
+    padding-right: 20px
+    }
+/* Fix admin stuff */
+.sheets {
+    /* margin-right: 345px; */
+    width: 100%
+    }
+div.stylesheet-customize-container {
+    margin-top: 50px
+    }
+#preview-table {
+    /* margin-right: 345px; */
+    }
+.side .icon-menu a {
+    background-color: transparent
+    }
+
+
+form.leavemoderator-button {
+    padding-top: 6px !important;
+    padding-bottom: .3em;
+    padding-left: 31px !important;
+    padding-right: .7em;
+    font-size: 1.3em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px #000 !important;
+    color: #CCC !important;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #555 #444 #444 #444;
+    border-radius: 3px;
+    background-color: #666 !important;
+    background-position: 8px -808px !important;
+    text-transform: uppercase
+    }
+form.leavemoderator-button a {
+    color: #e4cd02
+    }
+/* Make the rules and related section consistent with the moderators and recently viewed links section */
+.titlebox .usertext-body h5 {
+    margin: 0;
+    color: #260505;
+    font-size: 130%;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 1.2em
+    }
+.titlebox .usertext-body ul {
+    border-radius: 3px;
+    border-color: #9f9976 #9f9976 #a4a085 #a4a085;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #ece9d8;
+    padding-top: 8px;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    margin: 0;
+    list-style-type: decimal
+    }
+/* Since half the modmail we get is people who can't find the post button, kill the ugly old post button and make a new one that doesn't look like a section header.  Uses the same trick as the alert box, except styles an <ol> instead of an <h6>.  Don't put other ordered lists in the sidebar! */
+
+.titlebox .usertext-body .md ol li {
+    padding-top: .3em !important;
+    padding-bottom: .3em;
+    padding-left: .7em !important;
+    padding-right: .7em;
+    margin-bottom: 1em;
+    margin-top: 0.2em;
+    font-size: 1.3em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px #000 !important;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #555 #444 #444 #444;
+    border-radius: 3px;
+    background-color: #666 !important
+    }
+.titlebox .usertext-body .md ol li a {
+    color: #CCC;
+    text-shadow: 1px 1px 2px #000 !important
+    }
+.titlebox .usertext-body .md ol li a:hover {
+    color: #DDD;
+    text-shadow: 1px 1px 2px #000 !important
+    }
+.titlebox .usertext-body .md ol li a:before {
+    color: #e4cd02;
+    content: "POST";
+    border-right: 1px solid #444;
+    padding-right: .6em;
+    margin-right: .6em
+    }
+.titlebox .usertext-body .md ol li + li a:before {
+    color: #e4cd02;
+    content: "CREATE";
+    border-right: 1px solid #444;
+    padding-right: .6em;
+    margin-right: .6em
+    }
+
+body {
+    background: url(%%bkg%%) no-repeat fixed center center
+    }
+
+
+/* Just put domains in. including http. Subdomains matter. Notice that there are two lists, make sure to put your stuff in both. Top one makes the hexagon logo, bottom one makes the hover over. */
+a[href^="http://socialno.de"]:after, a[href^="http://cjdns.thefinn93.com"]:after, a[href^="http://florida.meshwith.me"]:after, a[href^="http://uppit.us"]:after, a[href^="http://sync.appno.de"]:after, a[href^="http://urlcloud.net"]:after, a[href^="http://hypediscuss.com"]:after, a[href^="http://gitboria.com"]:after,a[href^="http://hypebox.net"]:after .md p:nth-of-type(3):before {
+    content: url(%%hyperboria%%);
+    padding: 3px;
+}
+
+a[href^="http://socialno.de"]:hover:before, a[href^="http://cjdns.thefinn93.com"]:hover:before, a[href^="http://florida.meshwith.me"]:hover:before, a[href^="http://uppit.us"]:hover:before, a[href^="http://sync.appno.de"]:hover:before, a[href^="http://urlcloud.net"]:hover:before, a[href^="http://hypediscuss.com"]:hover:before, a[href^="http://gitboria.com"]:hover:before a[href^="http://hypebox.net"]:hover:before {
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    padding: 3px;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    content: "Requires a connection to Hyperboria";
+    text-align: center;
+    font-weight: normal;
+    font-size: 8pt;
+    color: #000000;
+    margin-top: 20px;
+}
